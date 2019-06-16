@@ -32,10 +32,7 @@ class Contact extends React.Component {
 		};
 		return (
 			<div>
-				<p>Abet 010-0000-0001</p>
-				<p>Betty 010-0000-0002</p>
-				<p>Charlie 010-0000-0003</p>
-				<p>David 010-0000-0004</p>
+				{mapToComponent(this.state.contactData)}
 			</div>
 		);
 	}
